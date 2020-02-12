@@ -1,0 +1,21 @@
+#For a pre-determined list
+def bubbleSort(x):
+    newlist = []
+    for i in x:
+        index = 0
+        if len(newlist) == 0:
+            newlist.append(i)
+        else:
+            while True:
+                if i > newlist[index]:
+                    index = index+1
+                    if index == len(newlist)-1:
+                        newlist.append(i)
+                        break
+                else:
+                    newlist.insert(index,i)
+                    break
+    return newlist
+
+nlist = [2000,1000,3000,5000,7000,9000,123003,2888,2000]
+print(bubbleSort(nlist))
