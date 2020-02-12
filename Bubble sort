@@ -1,4 +1,4 @@
-#For a pre-determined list
+#For a pre-determined list.
 def bubbleSort(x):
     newlist = []
     for i in x:
