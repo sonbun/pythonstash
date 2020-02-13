@@ -1,0 +1,11 @@
+import itertools
+
+print(list(itertools.combinations('abcd',2)))
+
+#print(list(itertools.permutations('abcd',2)))
+#print(list(itertools.permutations(string or list, number of elements in each possibility)))
+
+print(list(itertools.combinations_with_replacement('abcd',2)))
+# This means that elements can be repeated
+#print(list(itertools.product('abcd', repeat=2)))
+# This means that elements can be repeated
