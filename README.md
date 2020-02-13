@@ -5,5 +5,5 @@ To do list (add as you wish) [√,✕]:
 → GUI (tkinter)             [✕]
 → Turtle                    [✕]
 → Numpy?                    [✕]
-→ Combinations/Permutations [✕]
+→ Combinations/Permutations [√]
 → Modules?                  [✕]
