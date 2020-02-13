@@ -7,4 +7,3 @@ To do list (add as you wish) [√,✕]:
 → Numpy?                    [✕]
 → Combinations/Permutations [✕]
 → Modules?                  [✕]
-
