@@ -1,0 +1,32 @@
+from turtle import *
+setup(800,800) #sets the res of the scren
+hideturtle() #faster cos no turtle
+
+#functions
+def drawCircle():
+    circle(90)
+def up():
+    setheading(90)
+    fd(100)
+def down():
+    setheading(270)
+    fd(100)
+def left():
+    setheading(180)
+    fd(100)
+def right():
+    setheading(0)
+    fd(100)
+listen() #allows the event commands to function
+
+#press the keys in "" to do the function - onkey(function,"keybind")
+onkey(up,"Up") 
+onkey(right,"Right")
+onkey(left,"Left")
+onkey(down,"Down")
+
+#activates function when clicked
+onscreenclick(drawCircle)
+
+#https://pbaumgarten.com/python/turtle.html (links to help)
+#https://docs.python.org/2/library/turtle.html (links #2)
