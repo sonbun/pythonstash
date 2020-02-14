@@ -1,0 +1,16 @@
+from turtle import *
+setup(600,600)
+
+#loop version
+n = int(input())
+for x in range(n):
+    fd(50)
+    print((n-2)*180/n)
+    rt(180-((n-2)*180/n))
+    
+#function version
+def drawShape(n):
+    for x in range(n):
+        fd(50)
+        print((n-2)*180/n)
+        rt(180-((n-2)*180/n))
