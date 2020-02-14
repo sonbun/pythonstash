@@ -1,0 +1,7 @@
+from turtle import *
+color("red","black") #first color is the line colour, second color is the inside color
+begin_fill() #initiates colur
+for x in range(4):
+    fd(100)
+    rt(90)
+end_fill() #finished the color
